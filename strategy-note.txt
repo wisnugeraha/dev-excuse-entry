@@ -1,0 +1,13 @@
+STRATEGY
+
+The line targets the freshest angle the rules explicitly flag as under-used:
+blaming production itself rather than the usual "works on my machine" / "merge
+conflict" / "timezone" gags. It plays a senior engineer who refuses to accept
+the bug exists - the humor lands hardest for developers who have said exactly
+this to a furious client.
+
+Chosen after rejecting:
+- "works on my machine" (overused)
+- "the prod bug is just a feature that escaped QA" (overused)
+- timezone gag (decent but not fresh enough)
+- "if a junior writes the code, a senior must own the bug" (too on-the-nose)
