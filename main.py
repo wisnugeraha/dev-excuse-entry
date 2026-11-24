@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
-"""Developer Excuse - one-line entry.
-
-Writes a single line to /output/entry.txt.
-Gate: 1..200 chars, non-blank, UTF-8. Judge ranks by laugh size + freshness.
+"""Developer Excuse one-line entry.
+Gate: 1..200 chars, non-blank, UTF-8.
 """
 import os
 import sys
