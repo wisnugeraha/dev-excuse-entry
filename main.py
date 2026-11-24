@@ -18,6 +18,8 @@ def emit(line: str, out: str = OUT) -> None:
         f.write(line + "\n")
 
 def confirm(out: str = OUT) -> None:
+    if not os.path.exists(out):
+        sys.exit("confirm: entry.txt missing")
     with open(out, "rb") as f:
         data = f.read()
     text = data.decode("utf-8").rstrip("\n")
