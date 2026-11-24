@@ -5,7 +5,7 @@ Gate: 1..200 chars, non-blank, UTF-8.
 import os
 import sys
 
-LINE = """The deploy succeeded and the app is fine. The bug is in the customer's timezone."""
+LINE = """It's not a bug, it's a load-bearing feature we didn't know we were testing in production."""
 MAX = 200
 OUT = "/output/entry.txt"
 
