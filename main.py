@@ -2,7 +2,7 @@
 """Developer Excuse - one-line entry.
 
 Writes a single line to /output/entry.txt.
-Gate: 1..200 chars, non-blank, UTF-8.
+Gate: 1..200 chars, non-blank, UTF-8. Judge ranks by laugh size + freshness.
 """
 import os
 import sys
