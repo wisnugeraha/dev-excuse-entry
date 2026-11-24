@@ -29,6 +29,7 @@ def confirm(out: str = OUT) -> None:
 def main() -> None:
     emit(LINE)
     confirm(OUT)
+    print(f"wrote {LINE[:40]}... ({len(LINE)} chars)")
 
 if __name__ == "__main__":
     main()
