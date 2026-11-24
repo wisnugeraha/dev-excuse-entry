@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
-"""Developer Excuse one-line entry.
-Gate: 1..200 chars, non-blank, UTF-8.
-Run: python3 main.py  # writes /output/entry.txt
-"""
+"""Dev-excuse entry. One line to /output/entry.txt, gated 1..200 chars."""
+
 import os
 import sys
 
